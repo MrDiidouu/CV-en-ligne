@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<head>
+<body>
+<form action="" method="get">
+	<fieldset>
+		<legend>Formulaire d'inscription</legend>
+			<table>
+				<tr>
+					<td><label>Nom </label></td>
+					<td><input type="text" id="nom" name="nom" placeholder="saisir votre nom"></td>
+				</tr>
+				
+				<tr>
+					<td><label>Prénom</label></td>
+					<td><input type="text" id="user" name="user" placeholder="saisir votre prenom"></td>
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="mail" id="mail" name="mail" placeholder="saisir votre Email"></td>
+				</tr>
+				<tr>
+					<td><label>Civilité </label></td>
+					<td><label>Masculin</label><input type="radio" id="raio" name="radio" checked> 
+					Féminin<input type="radio" id="raio" name="radio"> </td>
+				</tr>
+				<tr>
+					<td><label>Photo </label></td>
+					<td><input type="file" value="Choisir un fichier"></td>
+				</tr>
+				<tr>
+					<td><label>Pays</label></td>
+					<td><select>
+						<option>France</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><label>Applications(s)</label></td>
+					<td><select id="pays" multiple>
+						<option value="Java">Java</option>
+						<option value="C">C</option>
+						<option value="C++">C++</option>
+						<option value="PHP">PHP</option>
+						</select>
+						(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)
+				<tr>
+					<td><label>Domaines<br />d'activités </label></td>
+					<td><input type="checkbox" id="checkbox" name="checkbox1" checked>Informatique
+					<input type="checkbox" id="checkbox" name="checkbox2">Gestion
+					<input type="checkbox" id="checkbox" name="checkbox3">Pédagogie</td>
+				</tr>
+				<tr>
+					<td></td>				
+					<td><input type="submit" value="Envoyez">
+					<input type="reset" placeholder="Annuler"></td>
+				</tr>
+								
+			</table>
+	</fieldset>
+</form>
+</body>
+</html>
